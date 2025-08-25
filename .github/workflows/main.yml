@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     branches:
       - master
-      - dev
+      - dev- cron: '0 10 */2 * *'
       - gd
 jobs:
   push:
